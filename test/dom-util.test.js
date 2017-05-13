@@ -11,7 +11,7 @@ describe('dom-util', () => {
 
       let count = 0;
       visitAllNodes(broccoli, () => {
-        count++;
+         count++;
       });
       expect(count).toEqual(39);
     });

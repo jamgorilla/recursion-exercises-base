@@ -10,6 +10,7 @@ describe('dominator', () => {
     const fixturePath = './test/fixtures/sample-page.html';
     const html = fs.readFileSync(fixturePath, 'utf8');
     document.documentElement.innerHTML = html;
+  
   });
 
   describe('getElementById()', () => {
